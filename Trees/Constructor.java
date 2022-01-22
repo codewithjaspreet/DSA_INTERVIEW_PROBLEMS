@@ -78,7 +78,7 @@ public class Constructor {
     String left = (node.left == null) ? "." :  "" + node.left.data;
     String right = (node.right == null) ? "." : "" + node.right.data;
 
-    str = left + str + right;
+    str = left + str + right; 
 
     System.out.println(str);
 
@@ -86,10 +86,69 @@ public class Constructor {
     display(node.right);
   }
 
+  public static int sizeOfTree(Node node){
+               
+    if(node == null) return 0;
+    int l = sizeOfTree(node.left);
+    int r = sizeOfTree(node.right);
+
+    int t = l + r + 1;
+
+    return t;
+
+
+}
+  public static int sumfTree(Node node){
+    
+    if(node == null) return 0;
+    int l = sumfTree(node.left);
+    int r = sumfTree(node.right);
+
+    int t = l + r + node.data;
+
+    return t;
+
+
+}
+  public static int MaxofTree(Node node){
+    
+    if(node == null) return Integer.MIN_VALUE;
+    int l = MaxofTree(node.left);
+    int r = MaxofTree(node.right);
+
+
+    int t = Math.max(l, r);
+    t = Math.max(t, node.data);
+
+    return t;
+
+
+}
+   // depth of the deepest Node
+  public static int heightofTree(Node node){
+    
+    if(node == null) return -1;  // return -1 in edges & 0  in case of nodes
+    int l = heightofTree(node.left);
+    int r = heightofTree(node.right);
+
+
+    return Math.max(l,r)+1;
+    
+
+
+
+}
+
   public static void main(String[]args) {
     Integer[]arr = {50, 25, 12, null, null, 37, 30, null, null, null, 75, 62, null, 70, null, null, 87, null, null};
 
     Node root = construct(arr);
-    display(root);
+    // display(root);
+    System.out.println(sizeOfTree(root));
+    System.out.println(sumfTree(root));
+    System.out.println(MaxofTree(root));
+    System.out.println(heightofTree(root));
+    
   }
 }
+
