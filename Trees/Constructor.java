@@ -139,16 +139,40 @@ public class Constructor {
 
 }
 
+ // Level Order Traversal
+public static void levelOrder(Node node) {
+        
+  Queue<Node> mq = new ArrayDeque<>();
+  mq.add(node);
+
+  while(mq.size() > 0){
+       int count  = mq.size();
+       for(int i = 0 ; i < count ; i++){
+           node = mq.remove();
+           System.out.println(node.data + " ");
+
+           if(node.left != null){
+               mq.add(node.left);
+           }
+           
+           if(node.right != null){
+              mq.add(node.right);
+          }
+       }
+  } 
+}
+
+
   public static void main(String[]args) {
     Integer[]arr = {50, 25, 12, null, null, 37, 30, null, null, null, 75, 62, null, 70, null, null, 87, null, null};
 
     Node root = construct(arr);
     // display(root);
-    System.out.println(sizeOfTree(root));
-    System.out.println(sumfTree(root));
-    System.out.println(MaxofTree(root));
-    System.out.println(heightofTree(root));
-    
+    // System.out.println(sizeOfTree(root));
+    // System.out.println(sumfTree(root));
+    // System.out.println(MaxofTree(root));
+    // System.out.println(heightofTree(root));
+    levelOrder(root);
   }
 }
 
