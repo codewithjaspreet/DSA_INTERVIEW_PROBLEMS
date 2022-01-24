@@ -138,6 +138,22 @@ public class Constructor {
 
 
 }
+class MergeTwoBinaryTrees {
+  public Node mergeTrees(Node t1, Node t2) {
+      if (t1 == null && t2 == null) {
+          return null;
+      } else if (t2 == null) {
+          return t1;
+      } else if (t1 == null) {
+          return t2;
+      } else {
+          Node t = new Node(t1.data + t2.data);
+          t.left = mergeTrees(t1.left, t2.left);
+          t.right = mergeTrees(t1.right, t2.right);
+          return t;
+      }
+  }
+}
 
  // Level Order Traversal
 public static void levelOrder(Node node) {
@@ -158,7 +174,7 @@ public static void levelOrder(Node node) {
            if(node.right != null){
               mq.add(node.right);
           }
-       }
+       } 
   } 
 }
 
