@@ -1,6 +1,15 @@
 
 
 public class BalancedBinaryTree {
+       class Node
+{
+    int data;
+    Node left = null, right = null;
+ 
+    Node(int data) {
+        this.data = data;
+    }
+}
     private boolean result = true;
 
     public boolean isBalanced(Node root) {
