@@ -1,4 +1,4 @@
-class MorrisInOrderTraversal {
+class MorrisPreOrderTraversal {
 
     public static ArrayList<Integer> morrisInTraversal(TreeNode Treenode) {
         ArrayList<Integer> ans = new ArrayList<>();
@@ -15,7 +15,7 @@ class MorrisInOrderTraversal {
                     rightMostNode.right = curr;
                     curr = curr.left;
 
-                } else {                    // thread cut
+                } else {                    
                     rightMostNode.right = null;
                     ans.add(curr.val);
                     curr = curr.right;
