@@ -1,5 +1,23 @@
+import java.util.*;
 class MorrisPreOrderTraversal {
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
     public static ArrayList<Integer> morrisInTraversal(TreeNode Treenode) {
         ArrayList<Integer> ans = new ArrayList<>();
         TreeNode curr = Treenode;

@@ -23,28 +23,28 @@ public class ZigZagTreeTraversal {
     }
 
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> ret = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        int l = 0;
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            List<Integer> level = new ArrayList<>();
-            for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-                if (node != null) {
-                    level.add(node.val);
-                    queue.add(node.left);
-                    queue.add(node.right);
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        if(root == null){
+            return ret;
+        }
+        Queue<TreeNode> que = new LinkedList<>();
+        que.offer(root);
+        boolean flag = true;
+        while(!que.isEmpty()){
+            ArrayList<Integer> levelnode = new ArrayList<>();
+            int len  = que.size();
+            for(int i = 0; i < len; i++){
+                TreeNode temp = que.poll();
+                if(flag){
+                    levelnode.add(temp.val);
+                }else{
+                    levelnode.add(0,temp.val);
                 }
+                if(temp.left != null) que.offer(temp.left);
+                if(temp.right != null) que.offer(temp.right);
             }
-            if (!level.isEmpty()) {
-                if (l % 2 == 1) {
-                    Collections.reverse(level);
-                }
-                ret.add(level);
-            }
-            l++;
+            flag = !flag;
+            ret.add(levelnode);
         }
         return ret;
     }

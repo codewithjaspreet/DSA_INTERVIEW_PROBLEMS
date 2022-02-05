@@ -1,5 +1,24 @@
-public class MorrisPreOrder {
-      
+import java.util.*;
+
+public class MorrisInOrder {
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
   public static TreeNode getRightMostNode(TreeNode rightMost , TreeNode curr){
       
     while(rightMost.right !=null && rightMost.right != curr){
