@@ -4,6 +4,17 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // bfs technique for visiting the nodes
+//Output:
+
+//        0 1 2 3 4
+
+//        Time Complexity : O(N+E)
+
+//        N = Nodes , E = travelling through adjacent nodes
+
+//        Space Complexity : O(N+E) + O(N) + O(N)
+
+//        Space for adjacency list, visited array, queue data structure
 
 public class bfs {
         public static ArrayList < Integer > bfsOfGraph(int V, ArrayList < ArrayList < Integer >> adj) {
