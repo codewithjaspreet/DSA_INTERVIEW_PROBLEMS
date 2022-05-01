@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.Stack;
 
+// directed acyclic graph required for this
+//Intuition:
+//  First let’s understand Topological Sorting.
+//  It means linear ordering of vertices such that there is an edge u —-> v, u appears before v in the ordering.
+
 public class topologicalSort_using_dfs {
         static void findTopoSort(int node, int[] vis, ArrayList<ArrayList<Integer>> adj, Stack<Integer> st) {
             vis[node] = 1;
@@ -54,3 +59,16 @@ public class topologicalSort_using_dfs {
             }
         }
 }
+
+//Time Complexity: O(N+E)
+//
+//        N = Number of node , E = Number of Edges
+//
+//        Space Complexity: O(N) + O(N)
+//
+//        Visited Array and Stack data structure. Both will be using O(N).
+//
+//        Auxiliary Space Complexity:  O(N)
+//
+//        Recursion call of DFS
+
