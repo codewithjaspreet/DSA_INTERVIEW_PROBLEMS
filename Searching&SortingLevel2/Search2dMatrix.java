@@ -1,3 +1,5 @@
+// log(M +N) -> log(mn)
+
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
       
