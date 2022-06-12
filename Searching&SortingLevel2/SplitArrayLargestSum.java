@@ -1,6 +1,5 @@
 
-// nlogn - >  minimum allocation of pages pattern
-
+// O(N*log(S)) , where N is total number of elements and S is array sum.
 class Solution {
     public int splitArray(int[] nums, int m) {
     
