@@ -63,3 +63,62 @@ class Solution
     }
     
 }
+
+// prefix sum technique - more optimise
+
+class Solution
+{
+    public static ArrayList<Integer> countEleLessThanOrEqual(int arr1[], int arr2[], int m, int n)
+    {
+       // add your code here
+       ArrayList<Integer> res  = new ArrayList<>();
+       
+       int max1 = Integer.MIN_VALUE ; int max2 = Integer.MIN_VALUE;
+       
+       
+       for(int a : arr1){
+        
+          max1 = Math.max(max1 , a);    
+       }
+       
+       
+       for(int a : arr2){
+        
+          max2 = Math.max(max2 , a);    
+       }
+       
+       int omax = Math.max(max1, max2);
+       int[] farr = new int[100000];
+       
+       for(int i = 0 ; i < n ; i++){
+           
+           farr[arr2[i]]++;
+       }
+        
+       int[] Parr = new int[100000];
+       Parr[0] = farr[0];
+       
+       for(int i = 1 ; i <=omax ; i++){
+           
+           Parr[i] = Parr[i-1] + farr[i];
+       }
+       
+       int[] ans = new int[arr1.length];
+       
+       for(int i =  0 ; i < ans.length ; i++){
+           
+           ans[i] = Parr[arr1[i]];
+       }
+       
+       for(int a : ans){
+           res.add(a);
+       }
+       
+       return res;
+       
+       
+       
+       
+    }
+    
+}
