@@ -29,3 +29,36 @@ class Solution {
     }
 }
 
+// optimise   , O(N^2) , O(1) space
+int countTriplet(int arr[], int n) {
+    // code here
+    
+    int ans = 0 ;
+    
+     Arrays.sort(arr);
+    
+    for(int i = arr.length - 1 ; i >= 2 ; i--){
+        
+        int l  = 0 ; int r  = i -1;
+        
+        while(l < r){
+            
+            if(arr[l] + arr[r] == arr[i]){
+                ans++;
+                l++; r--;
+            }
+            else if(arr[l] + arr[r] < arr[i]){
+                
+                l++;
+                
+            }
+            else{
+                r--;
+            }
+        }
+    }
+    
+    
+    return ans;
+}
+
