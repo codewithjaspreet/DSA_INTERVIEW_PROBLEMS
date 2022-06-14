@@ -1,5 +1,5 @@
 
-// brute force - O(N) time and O(N) s[ace ]
+// brute force - O(N) time and O(N) space 
 class Solution {
     int distinctCount(int[] arr, int n) {
         // code here
