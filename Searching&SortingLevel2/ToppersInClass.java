@@ -21,8 +21,8 @@ class GFG
    }
 }
 
-//optimised - O(Nlogk)  - min heap priorityQueue not sorted fully
-
+//optimised -  - min heap priorityQueue not sorted fully
+// time  - O(Nlogk)  ,  space - O(k)
 import java.util.*;
 import java.io.*;
 
