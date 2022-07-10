@@ -1,6 +1,6 @@
 ## Important Algorithms & Questions for different data structures ✔️
 ----
-## *DYNAMIC PROGRAMMING* 🔥
+## *1. DYNAMIC PROGRAMMING* 🔥
 ----
 ## <sup>You can checkout all the solutions in the DP sections with Recursive , Memoization , Tabulation & Space Optimisation following the order along with well commented Time & Space Complexity 😎🚀</sup> 
 | `Video Solution`  | `Problem - Pattern`  | `Question Link` | 
