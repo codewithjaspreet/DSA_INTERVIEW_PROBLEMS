@@ -2,7 +2,7 @@
 ----
 ## *1. DYNAMIC PROGRAMMING* 🔥
 ----
-## <sup>You can checkout all the solutions in the DP sections with Recursive , Memoization , Tabulation & Space Optimisation following the order along with well commented Time & Space Complexity 😎🚀</sup> 
+## <sup>You can checkout all the solutions in the DP section with Recursive , Memoization , Tabulation & Space Optimisation following the order along with their well commented Time & Space Complexities 😎🚀</sup> 
 | `Video Solution`  | `Problem - Pattern`  | `Question Link` | 
 | :------------ |:---------------:| -----:| 
 |   [Video](https://youtu.be/tyB0ztf0DNY )   | 1-D DP | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) |
