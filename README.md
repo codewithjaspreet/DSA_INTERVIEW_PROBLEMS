@@ -11,3 +11,8 @@
 |  [Video](https://youtu.be/AE39gJYuRog)   | DP on 2D-MATRIX-INTRO | [Ninja’s Training ](https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
 |  [Video](https://youtu.be/sdE0A2Oxofw)   |  DP on Grids| [Grid Unique Paths](https://leetcode.com/problems/unique-paths/)  |
 |  [Video](https://youtu.be/TmhpgXScLyY)   |  DP on Grids| [Grid with Maze Obstacles](https://leetcode.com/problems/unique-paths-ii/)  |
+|  [Video](https://youtu.be/_rgTlyky1uQ)   |  DP on Grids| [Minimum Path Sum in Grid](https://leetcode.com/problems/minimum-path-sum/)  |
+|  [Video](https://youtu.be/SrP-PiLSYC0)   |  DP on Grids-Fixed Starting| [Traingle](https://leetcode.com/problems/triangle/)  |
+|  [Video](https://youtu.be/N_aJ5qQbYA0)   |  DP on Grids-Variable Starting| [Minimum/Maximum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)  |
+
+
