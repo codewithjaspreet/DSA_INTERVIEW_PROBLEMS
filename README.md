@@ -18,6 +18,6 @@
 |  [Video](https://youtu.be/N_aJ5qQbYA0)   |  DP on Grids-Variable Starting| [Minimum/Maximum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)  |
 |  [Video](https://youtu.be/fWX9xDmIzRI)   |  DP on Subsequences/ Subsets| [Subset Sum Equals to Target](https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954?leftPanelTab=1)  |
 |  [Video](https://youtu.be/7win3dcgo3k)   |  DP on Subsequences/ Subsets| [ Partition Equal Subset Sum ](https://leetcode.com/problems/partition-equal-subset-sum/)  |
-
+|  [Video](https://youtu.be/GS_OqZb2CWc) |  DP on Subsequences/ Subsets| [ Partition A Set Into Two Subsets With Minimum Absolute Sum Difference ](https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos/)  |
 
 
