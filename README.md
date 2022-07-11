@@ -17,5 +17,7 @@
 |  [Video](https://youtu.be/SrP-PiLSYC0)   |  DP on Grids-Fixed Starting| [Traingle](https://leetcode.com/problems/triangle/)  |
 |  [Video](https://youtu.be/N_aJ5qQbYA0)   |  DP on Grids-Variable Starting| [Minimum/Maximum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)  |
 |  [Video](https://youtu.be/fWX9xDmIzRI)   |  DP on Subsequences/ Subsets| [Subset Sum Equals to Target](https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954?leftPanelTab=1)  |
+|  [Video](https://youtu.be/7win3dcgo3k)   |  DP on Subsequences/ Subsets| [ Partition Equal Subset Sum ](https://leetcode.com/problems/partition-equal-subset-sum/)  |
+
 
 
