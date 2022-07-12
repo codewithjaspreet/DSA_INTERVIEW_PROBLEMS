@@ -1,4 +1,4 @@
-## Important Algorithms & Questions for different data structures ✔️
+## Important Algorithms & Questions for different data structures✔️
 ----
 ## *1. DYNAMIC PROGRAMMING* 🔥
 ----
