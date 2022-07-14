@@ -18,6 +18,17 @@ public class Solution {
             else
                 return 0;
         }
+        
+        // if elements 0 are also allowed in array
+        
+//         if(i==0){
+        
+//             if(target == 0 && arr[0] == 0  ) return 2;
+            
+//             if(target == 0 || target == arr[0] ) return 1;
+            
+//             return 0;
+//         }
 
         if (target == 0)
             return 1;
