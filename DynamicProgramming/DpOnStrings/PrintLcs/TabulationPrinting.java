@@ -30,6 +30,8 @@ class Solution {
 
         StringBuilder ans = new StringBuilder();
 
+        // worst case o(n+m) if u use all row till up
+
         int i = text1.length();
         int j = text2.length();
 
