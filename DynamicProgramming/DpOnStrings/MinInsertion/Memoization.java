@@ -1,6 +1,10 @@
+
+// logic : str1.length() - longestCommonSubsequence(str1, str2) + str2.length()- longestCommonSubsequence(str1, str2);
+
 class Solution {
     public int minOperations(String str1, String str2) {
         // Your code goes here
+
         return str1.length() - longestCommonSubsequence(str1, str2) + str2.length()
                 - longestCommonSubsequence(str1, str2);
 
