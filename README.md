@@ -21,19 +21,17 @@
 |  [Video](https://youtu.be/GS_OqZb2CWc) |  DP on Subsequences/ Subsets| [ Partition A Set Into Two Subsets With Minimum Absolute Sum Difference ](https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos/)  |
 |  [Video](https://youtu.be/ZHyb-A2Mte4)   |  DP on Subsequences/ Subsets| [ Counts Subsets with Sum K](https://www.codingninjas.com/codestudio/problems/number-of-subsets_3952532?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos&leftPanelTab=1)  |
 |  [Video](https://youtu.be/zoilQD1kYSg)   |Dp on Subsequences/ Subsets| [Count Partitions With Given Difference](https://www.codingninjas.com/codestudio/problems/partitions-with-given-difference_3751628?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
-|  [Video](https://youtu.be/GqOmJHQZivw)   |Dp on Subsequences/ Subsets| [Count Partitions With Given Difference](https://www.codingninjas.com/codestudio/problems/partitions-with-given-difference_3751628?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
 |  [Video](https://youtu.be/zoilQD1kYSg)   |Dp on Subsequences/ Subsets| [0/1 Knapsack](https://www.codingninjas.com/codestudio/problems/0-1-knapsack_920542?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
 |  [Video](https://youtu.be/myPeWb3Y68A)   |Dp on Subsequences/ Subsets| [Minimum Coins - Coin Change](https://www.codingninjas.com/codestudio/problems/minimum-elements_3843091?leftPanelTab=1?source=youtube&campaign=striver_dpseries&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dpseries)  |
 |  [Video](https://youtu.be/b3GD8263-PQ)   |Dp on Subsequences/ Subsets| [Target Sum](https://leetcode.com/problems/target-sum/)  |
 |  [Video](https://youtu.be/HgyouUi11zk)   |Dp on Subsequences/ Subsets| [Minimum Coins - Coin Change-2](https://leetcode.com/problems/coin-change-2/)  |
 |  [Video](https://youtu.be/OgvOZ6OrJoY)   |Dp on Subsequences/ Subsets| [Unbounded Knapsack ](https://www.codingninjas.com/codestudio/problems/unbounded-knapsack_1215029?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
-|  [Video](https://youtu.be/OgvOZ6OrJoY)   |Dp on Subsequences/ Subsets| [Unbounded Knapsack ](https://www.codingninjas.com/codestudio/problems/unbounded-knapsack_1215029?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos)  |
-|[Video](https://youtu.be/mO8XpGoJwuo)   |Dp on Subsequences/ Subsets| [Rod Cutting Problem](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1) |
 |[Video](https://youtu.be/mO8XpGoJwuo)   |Dp on Strings| [Rod Cutting Problem](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1) |
 |[Video](https://youtu.be/NPZn9jBrX8U)   |Dp on Strings| [Longest Common Subsequence](https://www.codingninjas.com/codestudio/problems/longest-common-subsequence_624879?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
 |[Video](https://youtu.be/-zI4mrF2Pb4)   |Dp on Strings| [Print Longest Common Subsequence](https://www.codingninjas.com/codestudio/problems/longest-common-subsequence_624879?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
 |[Video](https://youtu.be/_wP9mWNPL5w)   |Dp on Strings| [Longest Common Substring ](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) |
-|[Video](https://youtu.be/_wP9mWNPL5w)   |Dp on Strings| [Longest Common Substring ](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) |
+|[Video](https://youtu.be/6i_T5kkfv4A)   |Dp on Strings| [ Longest Palindromic Subsequence ](https://www.codingninjas.com/codestudio/problems/longest-common-subsequence_624879?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
+
 ----
 
 ## *2. Binary Trees & Binary Search Trees* 🔥
