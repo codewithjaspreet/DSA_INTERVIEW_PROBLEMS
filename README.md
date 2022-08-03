@@ -31,6 +31,10 @@
 |[Video](https://youtu.be/-zI4mrF2Pb4)   |Dp on Strings| [Print Longest Common Subsequence](https://www.codingninjas.com/codestudio/problems/longest-common-subsequence_624879?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
 |[Video](https://youtu.be/_wP9mWNPL5w)   |Dp on Strings| [Longest Common Substring ](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) |
 |[Video](https://youtu.be/6i_T5kkfv4A)   |Dp on Strings| [ Longest Palindromic Subsequence ](https://www.codingninjas.com/codestudio/problems/longest-common-subsequence_624879?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
+|[Video](https://youtu.be/xPBLEj41rFU)   |Dp on Strings| [  Minimum Insertions to Make String Palindrome ](https://www.codingninjas.com/codestudio/problems/minimum-insertions-to-make-palindrome_985293?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos) |
+|[Video](https://youtu.be/yMnH0jrir0Q)   |Dp on Strings| [ Minimum Insertions/Deletions to Convert String A to String B ](https://leetcode.com/problems/delete-operation-for-two-strings/) |
+|[Video](https://youtu.be/xElxAuBcvsU)   |Dp on Strings| [ Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence/) |
+
 
 ----
 
@@ -42,6 +46,7 @@
 |[Video](https://youtu.be/Z_NEgBgbRVI)   |Recursive - In -Order Traversal| [ Inorder Traversal of Binary Tree](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
 |[Video](https://youtu.be/COQOU6klsBg)   |Recursive - Post-Order Traversal| [ Postorder Traversal of Binary Tree](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
 |[Video](https://youtu.be/EoAsWbO7sqg)   |Level Order - Traversal - Queue Data Structure| [ Level Order Traversal of Binary Tree](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+
 
 
 
