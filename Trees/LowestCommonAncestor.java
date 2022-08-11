@@ -1,7 +1,8 @@
-// tc , sc = O(N)
+// time & space = O(N) ( Extra space of data structure)
 
 // brute force - generate root to node path for both the nodes given
-
+// & then traverse  both the arraylist simultaneously, the point where the values are different 
+// return the the last similar node which is the LCA
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
