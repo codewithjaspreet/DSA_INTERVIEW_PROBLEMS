@@ -1,5 +1,5 @@
 // bfs travesal
-
+// tc - O(N)  ,sc - O(N) - worst case assuming it to be a skew tree
 // logic for the traversal  - > 
 
 // root.left | root.right
