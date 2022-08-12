@@ -47,6 +47,12 @@
 |[Video](https://youtu.be/COQOU6klsBg)   |Recursive - Post-Order Traversal| [ Postorder Traversal of Binary Tree](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
 |[Video](https://youtu.be/EoAsWbO7sqg)   |Level Order - Traversal - Queue Data Structure| [ Level Order Traversal of Binary Tree](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 
+----
 
+## *3. GRAPHS*  🔥
+| `Video Solution`  | `Problem Name`  | `Question Link` |
+| :------------ |:---------------:| -----:| 
+|[Video](https://youtu.be/M3_pLsDdeuU)   |Introduction to Graph - Different Conventions Used||
+|[Video](https://youtu.be/OsNklbh9gYI)   |Representation in JAVA||
 
 
