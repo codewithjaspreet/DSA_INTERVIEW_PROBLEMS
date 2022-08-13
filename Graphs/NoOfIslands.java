@@ -36,6 +36,12 @@ public class Solution {
 
 // bfs-- all 8 direction neighbour check
 
+// Time Complexity ~ O(N² + NxMx9), N² for the nested loops, and NxMx9 for the
+// overall DFS of the matrix, that will happen throughout if all the cells are
+// filled with 1.
+
+// Space Complexity: O(N²) for visited array max queue space O(N²), If all are
+// marked as 1 then the maximum queue space will be N².
 class Solution {
 
     class Pair {
