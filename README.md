@@ -56,3 +56,11 @@
 |[Video](https://youtu.be/OsNklbh9gYI)   |Representation in JAVA||
 
 
+---
+
+
+## *3. Basic Maths*  🔥
+| `Problem Name`  | `Question Link` |
+ |:---------------:| -----:| 
+  |Count Digits| [Count Digits](https://practice.geeksforgeeks.org/problems/count-digits5716/1)|
+  |Reverse A Integer|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|
