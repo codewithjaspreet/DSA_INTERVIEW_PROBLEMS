@@ -64,3 +64,10 @@
  |:---------------:| -----:| 
   |Count Digits| [Count Digits](https://practice.geeksforgeeks.org/problems/count-digits5716/1)|
   |Reverse A Integer|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|
+  
+---
+
+## *4. Sliding Window*  🔥
+| `Problem Name`  | `Question Link` |
+ |:---------------:| -----:| 
+  |Max Sum Subarray of size K| [Max Sum Subarray of size K](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)|
