@@ -1,6 +1,6 @@
 class Solution {
 
-    public static int clearBit(int N) {
+    public static int SetRightMostOff(int N) {
         // code here
         return (N & N - 1);
     }
