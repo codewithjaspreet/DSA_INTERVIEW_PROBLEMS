@@ -38,7 +38,9 @@ public class Solution {
             }
          }
 
-         return ngl;
+         st.push(arr[i]);
       }
+
+      return ngl;
    }
 }
