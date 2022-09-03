@@ -5,6 +5,9 @@ class Solution {
 
         // sort the 2d array on the basis of the start time
 
+        if (intervals.length == 0 || intervals.length == 1)
+            return true;
+
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
 
         int ep = intervals[0][1];
