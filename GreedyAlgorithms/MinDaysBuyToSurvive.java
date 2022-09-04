@@ -21,6 +21,7 @@ class Solution {
             ans = tf / N + 1;
         }
 
+        // N= 1 , M = 1 , S = 10
         if (ans <= bd)
             return ans;
 
