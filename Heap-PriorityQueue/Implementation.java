@@ -93,9 +93,8 @@ public class BinaryHeep {
         if (heaptype.equals("Max")) {
             if (sizeofTree == left) {
                 if (arr[index] < arr[left]) {
-                    int temp = arr[index];
-                    arr[index] = arr[left];
-                    arr[index] = temp;
+
+                    swapchild(index, swapchild);
 
                 }
             } else {
@@ -106,9 +105,8 @@ public class BinaryHeep {
                     swapchild = right;
                 }
                 if (arr[index] < arr[swapchild]) {
-                    int temp = arr[index];
-                    arr[index] = arr[swapchild];
-                    arr[swapchild] = temp;
+
+                    swapchild(index, swapchild);
                 }
 
             }
@@ -116,10 +114,7 @@ public class BinaryHeep {
             {
                 if (sizeofTree == left) {
                     if (arr[index] > arr[left]) {
-                        int temp = arr[index];
-                        arr[index] = arr[left];
-                        arr[index] = temp;
-
+                        swapchild(index, left);
                     }
                     return;
                 } else {
@@ -130,9 +125,7 @@ public class BinaryHeep {
                         swapchild = right;
                     }
                     if (arr[index] > arr[swapchild]) {
-                        int temp = arr[index];
-                        arr[index] = arr[swapchild];
-                        arr[swapchild] = temp;
+                        swapchild(index, swapchild);
                     }
 
                 }
@@ -140,6 +133,12 @@ public class BinaryHeep {
             heapifytoptobottom(swapchild, heaptype);
 
         }
+    }
+
+    void swapchild(int index, int swapchild) {
+        int temp = arr[index];
+        arr[index] = arr[swapchild];
+        arr[swapchild] = temp;
     }
 
     // Time and space complexity = O(LogN)
