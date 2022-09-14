@@ -53,7 +53,7 @@
 | `Video Solution`  | `Problem Name`  | `Question Link` |
 | :------------ |:---------------:| -----:| 
 |[Video](https://youtu.be/M3_pLsDdeuU)   |Introduction to Graph - Different Conventions Used||
-|[Video](https://youtu.be/OsNklbh9gYI)   |Representation in JAVA||
+|[Video](https://youtu.be/OsNklbh9gYI)   |Representation in JAVA ||
 
 
 ---
