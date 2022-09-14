@@ -1,0 +1,19 @@
+package SinglyLinkedListImplementation;
+
+import java.util.Scanner;
+
+public class Main {
+
+        public static void main(String[] args) {
+            // TODO code application logic here
+            Scanner sc = new Scanner(System.in);
+            LL list = new LL();
+            list.insertAtfirst(5);
+            list.insertAtfirst(6);
+            list.insertAtfirst(7);
+            list.insertAtfirst(8);
+            list.addAddPosition(8,1);
+            list.Display(list.head);
+        }
+
+}
