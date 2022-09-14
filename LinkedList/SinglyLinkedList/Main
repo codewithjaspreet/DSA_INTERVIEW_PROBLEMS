@@ -1,19 +1,16 @@
-package SinglyLinkedListImplementation;
+package LinkedList.SinglyLinkedList;
 
-import java.util.Scanner;
-
-public class Main {
-
-        public static void main(String[] args) {
-            // TODO code application logic here
-            Scanner sc = new Scanner(System.in);
-            LL list = new LL();
-            list.insertAtfirst(5);
-            list.insertAtfirst(6);
-            list.insertAtfirst(7);
-            list.insertAtfirst(8);
-            list.addAddPosition(8,1);
-            list.Display(list.head);
-        }
-
-}
+class Main {
+    public static void main(String[] args) {
+        SinglyLinkedList sLL = new SinglyLinkedList();
+        sLL.createSinglyLinkedList(5);
+        // System.out.println(sLL.head.value);
+        sLL.insertInLinkedList(6, 1);
+        sLL.insertInLinkedList(7, 3);
+        sLL.insertInLinkedList(8, 4);
+        sLL.insertInLinkedList(9, 0);
+        sLL.traverseSinglyLinkedList();
+        sLL.deleteSLL();
+        sLL.traverseSinglyLinkedList();
+    }
+    }
