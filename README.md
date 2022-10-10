@@ -79,4 +79,4 @@
 | `Problem Name`  | `Question Link` |
  |:---------------:| -----:| 
   |Stack Implementation using Arrays| [Implementation](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array)|
-  |Stack Implementation using LinkedList| [Implementation](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-linked-list)|
+  |Stack Implementation using LinkedList| [Implementation](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-linked-list ) |
