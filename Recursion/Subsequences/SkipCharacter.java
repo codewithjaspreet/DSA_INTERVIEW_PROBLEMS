@@ -18,6 +18,25 @@ class Solution {
 
     }
 
+    // skip a entire string "apple"
+
+    public static String skipString(String up) {
+
+        if (up.length() == 0)
+            return "";
+
+        char ch = up.charAt(0);
+
+        if (up.startsWith("apple")) {
+
+            return skipString(up.substring(5));
+        }
+
+        else {
+            return ch + skipString(up.substring(1));
+        }
+    }
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextLine();
