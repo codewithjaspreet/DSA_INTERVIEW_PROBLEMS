@@ -37,6 +37,20 @@ class Solution {
         }
     }
 
+    public static String skipappNotApple(String up) {
+
+        if (up.length() == 0)
+            return "";
+
+        char ch = up.charAt(0);
+
+        if (up.startsWith("app") && !up.startsWith("apple")) {
+            return skipappNotApple(up.substring(3));
+        } else {
+            return ch + skipappNotApple(up.substring(1));
+        }
+    }
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextLine();
