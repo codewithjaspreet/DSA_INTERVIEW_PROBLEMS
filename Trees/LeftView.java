@@ -49,3 +49,37 @@ class Tree {
 
     }
 }
+
+
+// recursive
+
+class Tree
+{
+    
+    
+    static void solve(Node root  ,int level , ArrayList<Integer> ans){
+        
+        
+        if(root == null) return;
+        
+        if(ans.size() == level) ans.add(root.data);
+        solve(root.left , level  +1   , ans);
+        solve(root.right , level + 1, ans);
+    }
+    //Function to return list containing elements of left view of binary tree.
+    ArrayList<Integer> leftView(Node root)
+    {
+      // Your code here
+     // return if the tree is empty
+     
+      ArrayList<Integer> ans = new ArrayList<>();
+      solve(root , 0  , ans);
+      
+      
+      return ans;
+      
+    
+    
+     
+ }
+}
