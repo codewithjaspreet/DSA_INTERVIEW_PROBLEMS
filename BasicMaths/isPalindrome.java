@@ -11,6 +11,6 @@ class Solution {
             sb.append(x1.charAt(i));
         }
 
-        return x1.equals(sb.toString()) ? "Yes" : "No";
+        return x1.equals(sb.toString()) ? "Yes" :  "No";
     }
 }
