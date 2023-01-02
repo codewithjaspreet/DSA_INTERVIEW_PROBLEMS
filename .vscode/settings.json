@@ -1,8 +1,9 @@
 {
   "java.project.sourcePaths": [
     "Searching&SortingLevel2",
+    "LinkedList/1-D-LinkedList",
     "HashMaps&HeapsLevel2",
     "DynamicProgramming/MCM",
-    "LinkedList/1-D-LinkedList"
+    "LinkedList/MediumProblemsOnLL"
   ]
 }
