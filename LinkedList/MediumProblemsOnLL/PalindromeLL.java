@@ -1,4 +1,5 @@
 
+import java.util.*;
 class Solution {
 
     
@@ -57,6 +58,33 @@ class Solution {
         }
 
         return prev;
+    }
+    
+    
+
+    public boolean isPalindrome2(ListNode head) {
+
+        Stack<ListNode> st = new Stack<>();
+
+        ListNode temp = head;
+        while (temp != null) {
+
+            st.push(temp);
+            temp = temp.next;
+        }
+
+        temp = head;
+
+        while (st.size() > 0 && temp != null) {
+
+            if (st.pop().val != temp.val)
+                return false;
+
+            temp = temp.next;
+
+        }
+
+        return true;
     }
 
 }
