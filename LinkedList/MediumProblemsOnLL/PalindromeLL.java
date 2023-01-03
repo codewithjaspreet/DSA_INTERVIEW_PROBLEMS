@@ -1,41 +1,62 @@
-import java.util.*;
-public class PalindromeLL {
+
+class Solution {
+
     
+      public class ListNode {
+      int val;
+      ListNode next;
+      ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+      }
+     
+    public boolean isPalindrome(ListNode head) {
 
-    static class Node{
-        Node next;
-        int data;
-        public Node(Node next, int data) {
-            this.next = next;
-            this.data = data;
+        if (head == null || head.next == null)
+            return true;
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+
+            slow = slow.next;
+            fast = fast.next.next;
+
         }
 
-        
-    }
+        slow.next = reverseLL(slow.next);
+        slow = slow.next;
 
-    // brute   - stack space - o(n)
-    static boolean isPalindrome(Node head){
+        while (slow != null) {
 
-        Stack<Node> st= new Stack<>();
-
-        Node temp = head;
-        while(temp != null){
-
-            st.push(temp);
-            temp = temp.next;
-        }
-
-        temp = head;
-
-        while(st.size() > 0 && temp != null){
-            
-
-            if(st.pop().data != temp.data) return false;
-
-            temp = temp.next;
-
+            if (head.val != slow.val)
+                return false;
+            slow = slow.next;
+            head = head.next;
         }
 
         return true;
     }
+
+    static ListNode reverseLL(ListNode head) {
+        // code here
+        ListNode temp;
+        ListNode cur = head;
+        ListNode prev = null;
+
+        while (cur != null) {
+
+            temp = cur.next;
+
+            cur.next = prev;
+
+            prev = cur;
+
+            cur = temp;
+        }
+
+        return prev;
+    }
+
 }
