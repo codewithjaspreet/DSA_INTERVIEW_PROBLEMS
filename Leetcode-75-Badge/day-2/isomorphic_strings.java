@@ -18,6 +18,7 @@ public class isomorphic_strings {
 
                 if(map1.get(c1) != c2) return false;
             }
+            
 
             else{
 
