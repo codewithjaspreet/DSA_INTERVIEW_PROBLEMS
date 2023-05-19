@@ -2,7 +2,8 @@
 // next greater to right using stack
 // store the index of the element in the stack
 
-class Solution {
+import java.util.Stack;
+class DailyTempratures {
 
     public int[] dailyTemperatures(int[] temperatures) {
 
