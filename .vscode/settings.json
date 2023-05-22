@@ -4,8 +4,9 @@
     "Searching&SortingLevel2",
     "LinkedList/MediumProblemsOnLL",
     "LinkedList/1-D-LinkedList",
+    "Heap-PriorityQueue",
     "HashMaps&HeapsLevel2",
     "DynamicProgramming/MCM",
-    "Heap-PriorityQueue"
+    "TwoPointers"
   ]
 }
