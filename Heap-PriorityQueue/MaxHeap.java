@@ -1,6 +1,7 @@
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;
+import java.util.random.RandomGenerator.LeapableGenerator;
 
 public class MaxHeap { 
   private int size;
@@ -96,7 +97,43 @@ public class MaxHeap {
 
    }
 
-  private void printHeap() {
+
+   // Heapify Algorithm 
+
+   // from index  - (n/2 + 1) to n  we have leaf nodes
+   // which we dont process since leaf nodes are always in heap property
+   // process , 1- n/2 wala part   ,i.e take them to correct position
+
+
+   void Heapify(int[] arr , int n , int i){
+
+    int largest = i;
+
+    int left = 2*i;
+    int right = 2*i+1;
+
+    if(left < n && arr[largest]  < arr[left]){
+
+        largest = left;
+    }
+
+    if(left < n && arr[largest]  < arr[right]){
+
+        largest = right;
+    }
+
+    if(largest != i){
+
+        swap(largest, i);
+        Heapify(arr, n, largest);
+    }
+    
+   
+}
+
+
+
+  private void printHeap(int[] heap) {
     for (int i = 1; i <= size; i++) {
       System.out.print(heap[i] + " ");
     }
@@ -108,13 +145,31 @@ public class MaxHeap {
     MaxHeap maxHeap = new MaxHeap();
 
 
-    maxHeap.add(50);
-    maxHeap.add(55);
-    maxHeap.add(53);
-    maxHeap.add(52);
-    maxHeap.add(54);
-    maxHeap.printHeap();
-    maxHeap.delete();
-    maxHeap.printHeap();
+    // maxHeap.add(50);
+    // maxHeap.add(55);
+    // maxHeap.add(53);
+    // maxHeap.add(52);
+    // maxHeap.add(54);
+    // maxHeap.printHeap(maxHeap.heap);
+    // maxHeap.delete();
+    // maxHeap.printHeap(maxHeap.heap);
+
+    int[] arr = {-1, 54,53,55,52,50};
+
+    int n = 5;
+
+    for(int i = n/2 ; i>0 ; i--){
+
+        maxHeap.Heapify(arr, n, i);
+
+    }
+
+    for(int i  = 1 ; i<= n; i++){
+
+        System.out.print(arr[i] + " ");
+
+    }
+
+    
   }
 }
