@@ -1,10 +1,11 @@
 {
   "java.project.sourcePaths": [
+    "Stacks&Queues",
     "Searching&SortingLevel2",
     "LinkedList/MediumProblemsOnLL",
     "LinkedList/1-D-LinkedList",
     "HashMaps&HeapsLevel2",
     "DynamicProgramming/MCM",
-    "Stacks&Queues"
+    "Heap-PriorityQueue"
   ]
 }

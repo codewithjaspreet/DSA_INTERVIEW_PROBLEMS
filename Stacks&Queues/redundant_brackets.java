@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Stack;
 
 public class redundant_brackets {
@@ -40,6 +41,15 @@ public class redundant_brackets {
             }
             
             return 0;
+        }
+
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+
+            String brackets = s.nextLine();
+
+            System.out.println(checkRedundancy(brackets));
+            
         }
         
         
