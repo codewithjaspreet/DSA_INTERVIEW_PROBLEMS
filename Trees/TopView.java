@@ -1,61 +1,56 @@
 
-// top view , pair class concept + level order 
-// hashmap  implemented
-
-import java.util.Map;
-
-class Solution {
-
-    static class Pair {
-
-        int hd;
+class Solution
+{
+    
+    static class Pair{
+        
         Node node;
-
-        Pair(int hd, Node node) {
-
-            this.hd = hd;
+        
+        int hd;
+        
+        Pair(Node node , int hd){
+            
             this.node = node;
-
+            this.hd = hd;
         }
-
     }
-
-    // Function to return a list containing the bottom view of the given tree.
-    public ArrayList<Integer> bottomView(Node root) {
-        // Code here
-
-        ArrayList<Integer> ans = new ArrayList<>();
-        Map<Integer, Integer> map = new TreeMap<>();
-
+    //Function to return a list of nodes visible from the top view 
+    //from left to right in Binary Tree.
+    static ArrayList<Integer> topView(Node root)
+    {
+        // add your code
+         ArrayList<Integer> ans = new ArrayList<>();
+        if (root == null) {
+            return ans;
+        }
+        
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         Queue<Pair> q = new ArrayDeque<>();
-        q.add(new Pair(0, root));
-
+        
+        q.add(new Pair(root, 0));
+        
         while (!q.isEmpty()) {
-
-            Pair r = q.poll();
-
-            if (!map.containsKey(r.hd)) {
-                map.put(cur.hd, cur.node.data);
+            Pair rem = q.poll();
+            Node fn = rem.node;
+            int hd = rem.hd;
+            
+            if (!map.containsKey(hd)) {
+                map.put(hd, fn.data);
             }
-
-            if (r.node.left != null) {
-
-                q.add(new Pair(r.hd - 1, r.node.left));
-
+            
+            if (fn.left != null) {
+                q.add(new Pair(fn.left, hd - 1));
             }
-
-            if (r.node.right != null) {
-
-                q.add(new Pair(r.hd + 1, r.node.right));
-
+            if (fn.right != null) {
+                q.add(new Pair(fn.right, hd + 1));
             }
-
         }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            ans.add(entry.getValue());
+        
+        // Traverse the map and add values to the answer list
+        for (int value : map.values()) {
+            ans.add(value);
         }
-
+        
         return ans;
-
     }
 }
