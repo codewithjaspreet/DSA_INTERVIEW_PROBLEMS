@@ -1,57 +1,59 @@
-
-// bottom view , pair class  concept + level order
-// hashmap  implemented
-
-class Solution {
-
-    static class Pair {
-
-        int hd;
+class Solution
+{
+    
+    static class Pair{
+        
         Node node;
-
-        Pair(int hd, Node node) {
-
-            this.hd = hd;
+        
+        int hd;
+        
+        Pair(Node node, int hd){
+            
             this.node = node;
-
+            this.hd = hd;
         }
-
     }
-
-    // Function to return a list containing the bottom view of the given tree.
-    public ArrayList<Integer> bottomView(Node root) {
+    public ArrayList <Integer> bottomView(Node root)
+    {
         // Code here
-
+        
         ArrayList<Integer> ans = new ArrayList<>();
-        Map<Integer, Integer> map = new TreeMap<>();
-
         Queue<Pair> q = new ArrayDeque<>();
-        q.add(new Pair(0, root));
-
-        while (!q.isEmpty()) {
-
-            Pair r = q.poll();
-
-            map.put(r.hd, r.node.data);
-
-            if (r.node.left != null) {
-
-                q.add(new Pair(r.hd - 1, r.node.left));
-
+        TreeMap<Integer,Integer> map = new TreeMap<>();
+        
+        q.add(new Pair(root , 0));
+        
+        while(!q.isEmpty()){
+            
+            Pair rem = q.poll();
+            
+            Node cur = rem.node;
+            int hd = rem.hd;
+            
+            
+            map.put(hd, cur.data);
+            
+            if(cur.left != null){
+                
+                q.add(new Pair(cur.left , hd  - 1));
+                
+                
             }
-
-            if (r.node.right != null) {
-
-                q.add(new Pair(r.hd + 1, r.node.right));
-
+            
+            if(cur.right != null){
+                
+                q.add(new Pair(cur.right , hd  + 1));
+                
+                
             }
-
+            
         }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            ans.add(entry.getValue());
+        
+        for(int value : map.values()){
+            
+            ans.add(value);
         }
-
+        
         return ans;
-
     }
 }
